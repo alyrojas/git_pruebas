@@ -31,11 +31,14 @@ public class Calculadora {
         System.out.print("Ingresa el segundo número: ");
         double num2 = scanner.nextDouble();
 
-        System.out.println("Selecciona una operación:");
-        System.out.println("1. Sumar");
-        System.out.println("2. Restar");
-        System.out.println("3. Multiplicar");
-        System.out.println("4. Dividir");
+        System.out.println("--------------------------------");
+        System.out.println("- Selecciona una operación:    -");
+        System.out.println("--------------------------------");
+        System.out.println("- 1. Sumar                     -");
+        System.out.println("- 2. Restar                    -");
+        System.out.println("- 3. Multiplicar               -");
+        System.out.println("- 4. Dividir                   -");
+        System.out.println("--------------------------------");
 
         int opcion = scanner.nextInt();
         double resultado = 0;
